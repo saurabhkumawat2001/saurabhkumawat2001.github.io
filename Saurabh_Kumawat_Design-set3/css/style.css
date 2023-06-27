@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: white;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+.flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.flex-justify-centre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.dropdowns{
+    gap: 5px;
+}
+/* The container for the select dropdown */
+.select-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 14%;
+}
+/* Styling for the select dropdown */
+.select {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #475297;
+}
+.contact{
+    border-right: 1px solid black;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+.contact a{
+    color: #475297;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar-search{
+    width: 14%;
+}
+.search{
+    width: 85%;
+    border: none;
+    outline: none;
+    color: #475297;
+}
+.search::placeholder{
+    color: #475297;
+    font-size: 16px;
+}
+.searchbutton{
+    width: 15%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.fa-magnifying-glass{
+    color: black;
+}
+main{
+    position: relative;
+}
+.hero-banner{
+    position: relative;
+   max-height: 800px;
+}
+.banner{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../Images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -3;
+}
+.banner-flex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    justify-content: flex-start;
+    gap: 30px;
+    min-height: 800px;
+}
+.banner-content-container{
+    width: 60%;
+}
+.banner-content h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.k-m{
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 20px 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.sliders{
+    justify-content: flex-start;
+    gap: 10px;
+}
+.slide{
+    height: 7px;
+    width: 70px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.slide:hover{
+    background-color: white;
+}
+.stats{
+    position: absolute;
+    bottom: 15px;
+    width: 98%;
+    padding: 15px 0px;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+}
+.stats h4{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.stats p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.content{
+    gap: 20px;
+    border-right: 1px solid white;
+    width: 16.6%;
+    padding: 20px 20px;
+    justify-content: flex-start;
+}
+.inner-content{
+    width: 17.6%;
+    padding: 10px 40px;
+    border-right: 1px solid white;
+}
+.end{
+    border-right: none;
+}
+.overlay{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #b74746;
+    z-index: -2;
+}
+.slash{
+    position: absolute;
+    width: 600px;
+}
+.slash img{
+    width: 100%;
+    height: auto;
+}
+.slash-two{
+    position: absolute;
+    top: 0;
+    left: -5%;
+}
