@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.t{
+    margin-bottom: 15px;
+    background-color: #ff4da6;
+    height: calc(20vh - 15px);
+    width: 100%;
+}
+.m1{
+    margin-bottom: 15px;
+    background: #FF037E;
+    height: 60vh;
+    float: left;
+    width: calc(70% - 7.5px);
+    }
+.m2{
+    margin-bottom: 15px;
+    background: #CE0468;
+    height: 60vh;
+    float: right;
+    width: calc(30% - 7.5px);
+}
+.b{
+    background: #802755;
+    height: calc(20vh - 15px);
+    width: 100%;
+    clear:both;
+}

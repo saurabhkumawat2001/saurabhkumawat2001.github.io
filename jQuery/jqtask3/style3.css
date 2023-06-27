@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+button{
+    width: 80px;
+    margin-top: 20px;
+}

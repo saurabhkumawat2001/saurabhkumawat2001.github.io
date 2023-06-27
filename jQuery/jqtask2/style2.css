@@ -1,0 +1,12 @@
+.panel{
+    padding:5px;
+    text-align: center;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.button{
+    padding:50px;
+    background-color: lightblue;
+    text-align: center;
+    display:none;
+}

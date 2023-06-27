@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+}
+header li{
+    font-size: 25px;
+ margin: 0 30px;
+}
+header{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+nav{
+    height: 100%;
+    width: 50%;
+}
+.navlink{
+    color: #06a3cc;
+}
+.navlink:hover{
+    background-color: black;
+    color: white;      
+}
+header img{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+.banner{
+    height: 40vh;
+    color: white;
+    background-color: #06a3cc;
+    margin-bottom: 15px;
+}
+.banner h{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner img{
+    height: 120px;
+}
+.content {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 70vh;
+    width: calc(100% - 200px);
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+}
+.purple {
+    position: absolute;
+    display: flex;
+    top: 40px;
+    left: -50px;
+    background-color: #D39ED6;
+    height: 70%;
+    width: 20%;
+}
+.sidebar {
+    height: 100%;
+    width: calc(40% - 15px);
+    margin-right: 15px;
+    background-color: #FFE369;
+    display: flex;
+}
+.mainbar{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.maincontent{
+    height: calc(70% - 15px);
+    width: 100%;
+    background-color: #ED8719;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+}
+.extracontent{
+    height: 30%;
+    width: 100%;
+    background-color: #89E33B;
+    display: flex;
+}
+input {
+    width: 70%;
+    height: 40px;
+    background-color: #f8a549;
+    border: none;
+}
+button {
+    color: white;
+    background-color: #f8a549;
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+}
+footer{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007594;
+}
+.foot{
+    list-style: none;
+    display: flex;
+}
+footer li{
+    margin: 0 20px;
+    font-size: 20px;
+    color: white;
+}
+footer li:hover{
+    background-color: black;
+    color: white;
+}

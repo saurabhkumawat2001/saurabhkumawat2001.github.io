@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.flex-justify-centre{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    align-content: center;
+}
+.flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    /* align-items: center; */
+}
+.flex-col-centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.alt-content{
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+h3{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+.alt-content p{
+    width: 50%;
+    opacity: 0.6;
+    margin: 50px 0px;
+}
+hr{
+    width: 100px;
+    height: 2px;
+    background-color: red;
+    border: none;
+}
+.alt-services{
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)),url(../images/section-bg-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+}
+.alt-grid{
+    width: 100%;
+}
+.col1{
+    width: 27%;
+    justify-content: space-around;
+}
+.col2{
+    width: 44%;
+}
+.col2 img{
+    width: 100%;
+}
+.alt-inner-content{
+    width: 85%;
+    position: relative;
+}
+.alt-inner-content p{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.col1-content:hover{
+    background-color: rgba(0,0,0,0.3);
+    transform: perspective(500px) rotateX(15deg);
+}
+.col1-content:hover .j-n{
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: none;
+    display: initial;
+    position: absolute;
+    left: 50%;
+    bottom: -30%;
+    transform: translate(-50%, 0%);
+}
+.j-n{
+    display: none;
+}
+.fa-solid{
+    font-size: 24px;
+    color: red;
+}
+.sec-two{
+    width: 100%;
+    min-height: 800px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/section-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-content{
+    width: 40%;
+    align-items: center;
+    color: white;
+}
+.left-content p{
+    font-style: italic;
+    margin-top: 20px;
+}
+.right-content{
+    width: 60%;
+    background-color: rgba(255,255,255, .97);;
+    height: 800px;
+}
+.sec2-col1{
+    width: 33%;
+    height: 100%;
+    border-left: 1px solid rgba(0,0,0, .05);
+}
+.sec2-inner-content{
+    height: 50%;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid rgba(0,0,0, .05);
+}
+.sec2-inner-content h3{
+    font-weight: 500;
+}
+.sec2-inner-content i{
+    font-size: 32px;
+}
+.sec-2-hov{
+    display: none;
+    width: 80%;
+    align-items: center;
+}
+.sec2-inner-content:hover .sec-2-hov{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.sec2-inner-content:hover i{
+    display: none;
+}
+.sec2-inner-content:hover h3{
+    display: none;
+}
+.sec-2-hov .j-n{
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: none;
+    display: initial;
+}
+.sec-2-hov p{
+    font-size: 14px;
+    opacity: 0.7;
+    text-align: justify;
+}
+.sec-three{
+    padding: 100px 0px;
+}
+.sec3-content{
+    align-items: center;
+    margin-bottom: 100px;
+}
+.sec3-grid{
+    gap: 1px;
+}
+.sec3-grid-col{
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.sec3-grid-col p{
+    font-style: italic;
+    font-size: 14px;
+}
+.sec3-hov{
+    display: none;
+}
+.sec3-hov p{
+    width: 60%;
+}
+.sec3-grid-col:hover .sec3-hov{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(180, 180, 180, 0.8);    
+    position: absolute;
+    top: 0;
+    text-align:center;
+}
+.sec3-grid-col:hover .snoop{
+    color: rgba(0,0,0,0.7);
+}
+.snoop{
+    text-align: center;
+}
+.socials{
+    gap: 10px;
+    color: rgba(180, 180, 180, 0.8);
+}
+.socials .fa-brands:hover{
+    color: black;
+    cursor: pointer;
+}
