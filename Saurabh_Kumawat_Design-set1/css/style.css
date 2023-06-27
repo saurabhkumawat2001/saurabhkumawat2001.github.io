@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.flex-justify-centre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    list-style: none;
+    gap: 20px;
+}
+.inner-content{
+    padding: 15px 10px;
+    gap: 10px;
+}
+.navbar-top{
+    background-color: #032a31;
+}
+.navbar-mid{
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.navbar-mid .inner-content{
+    padding: 15px 0px;
+}
+.navbar-bottom{
+    background-color: #813d16;
+    padding: 15px 0px;
+}
+.inner-content p{
+    color: #7a7a7a;
+}
+.navbar-mid .inner-content a{
+    color: #032a31;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.navbar-search{
+    background-color: rgba(255,255,255,0.3);
+}
+.search,.searchbutton{
+    width: 85%;
+    height: 40px;
+    border: none;
+    background: none;
+    padding: 10px 10px;
+}
+.search::placeholder{
+    color: white;
+}
+.searchbutton{
+    width: 15%;
+}
+.banner-flex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: flex-start;
+    gap: 30px;
+    min-height: 800[px];
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../Images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-content-container{
+    width: 50%;
+}
+.banner-content h1{
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+.banner-content h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-buttons{
+    justify-content: flex-start;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.banner-buttons a{
+    padding: 20px 40px;
+    background-color: white;
+    color: #813d16;
+}
+.playbtn{
+    gap: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;   
+}
+.playbtn img{
+    width: 70px;
+    height: 70px;
+    padding: 23px;
+    border-radius: 50%;
+    background-color: #813d16;
+}
+footer{
+    background-color: #032a31;
+}
+.foot{
+    padding: 40px 0px;
+    border-right: 1px solid grey;
+    width: 15%;
+    gap: 20px;
+}
+.v-l{
+    border-right: 1px solid grey;
+}
+.end{
+    border-right: none;
+}

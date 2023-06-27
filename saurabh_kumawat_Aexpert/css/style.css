@@ -1,0 +1,210 @@
+/* importing fonts here  */
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+}
+
+.flex-justify-centre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.flex-justify-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.flex-col-centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header css starts here  */
+a{
+    text-decoration: none;
+    color: #3d3d3d;
+    outline: none;
+    cursor: pointer;
+}
+header{
+    background-color: #ededed;
+}
+a:hover{
+    color: #febb0c;
+}
+.navbar{
+    align-items: center;
+    padding: 10px 10px;
+}
+.navlinks{
+    list-style-type: none;
+    gap: 20px;
+}
+.right-head{
+    gap: 20px;
+}
+.nav-button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #3d3d3d;
+    cursor: pointer;
+}
+.hovered{
+    color: #ffff;
+    background-color: #007a82;
+    border-radius: 20px;
+}
+.nav-button:hover{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffff;
+    background-color: #007a82;
+    border-radius: 20px;
+}
+/* header css ends here  */
+/* main css begins here  */
+
+.hero-banner{
+    padding: 50px 0px;
+    background-color: #ededed;
+    position: relative;
+}
+.left-container{
+    width: 50%;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.sub-heading{
+    align-items: center;
+    justify-content: flex-start;
+}
+.l-c-hr{
+    width: 45px;
+    height: 3px;
+    background-color: #febb0c;
+    margin-right: 10px;
+    border: none;
+}
+h3{
+    color: #007a82;
+    font-size: 14px;
+}
+h2{
+    font-family: 'BebasNeue';
+    font-size: 46px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+p{
+    color: #3d3d3d;
+    width: 68%;
+    font-size: 14px;
+}
+.g-s{
+    width: 100px;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #007a82;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.services{
+    margin-top: 50px;
+    width: 60%;
+}
+.service{
+    gap: 45px;
+    justify-content: flex-start;
+    color: #3d3d3d;
+    list-style: none;
+}
+.bullets::before{
+    position: absolute;
+    content: "•";
+    color: #febb0c;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline;
+    width: 1em;
+    margin-left: -1em;
+}
+.right-container{
+    width: 50%;
+}
+.right-container img{
+    margin-left: 85px;
+}
+
+/* main css ends here  */
+
+/* footer css start from here  */
+.foot{
+    width: 100%;
+    gap: 20px;
+    left: 0;
+    bottom: -10%;
+    position: absolute;
+
+}
+.foot-content{
+    width: 18%;
+    padding: 15px;
+    box-shadow: 0 0px 15px rgb(0 0 0 / 40%);
+    background-color: white;
+}
+h4{
+    font-size: 22px;
+    color: #007a82;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.foot p{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.foot-hr{
+    background-color: #febb0c;
+    height: 3px;
+    border: none;
+    width: 95%;
+}
+.foot-content:hover {
+    background-color: #007a82;
+}
+.foot-content:hover h4{
+    color: #febb0c;
+    background-color: #007a82;
+}
+.foot-content:hover p{
+    color: white;
+    background-color: #007a82;
+}
+/* footer css ends  */

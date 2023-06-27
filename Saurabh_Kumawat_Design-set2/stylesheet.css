@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: relative;
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    align-items: center;
+    background-color: #57b9a2;
+    color: white;
+    padding: 15px 30px;
+    font-size: 14px;
+}
+.flex-justify-centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.flex-justify-between{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.content{
+    gap: 10px;
+} 
+.navlinks{
+    gap: 15px;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 0 8px;
+}
+.navlinks .white-link{
+    color: white;
+}
+/* The container for the select dropdown */
+.select-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+}
+/* Styling for the select dropdown */
+.select {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+    background-color: #57b9a2;
+}
+.hov{
+    background-color: #ef4d38;
+}
+.select:hover,.white-link:hover, .black:hover{
+    background-color: #ef4d38;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.white{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+.navbutton{
+    color: white;
+    background-color: #ef4d38;
+    border: 2px transparent;
+    border-radius: 40px;
+    padding: 8px 25px;
+    cursor:pointer;
+}
+.navbar{
+    align-items: center;
+    padding: 15px 30px;
+    color: black;
+}
+.search{
+    padding: 5px;
+    width: 85%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-right: 0;
+    border: 1px solid gray;
+    border-right: 0;
+    outline: 0px;
+}
+.searchbutton{
+    height: 32px;
+    width: 15%;
+    border: 1px solid gray;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left: 0;
+    cursor: pointer;
+}
+.fa-magnifying-glass{
+    font-size: 16px;
+}
+.banner{
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/banner.jpg);
+    position: relative;
+}
+.banner h2{
+    width: 42%;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+.banner p{
+    font-size: 15px;
+}
+.bannerbutton{
+    color: white;
+    background-color: #ef4d38;
+    height: 50px;
+    width: 300px;
+    border: transparent;
+    border-radius: 45px;
+    cursor: pointer;
+    gap: 10px;
+}
+.achievements{
+    margin-top: 40px;
+    padding-bottom: 75px;
+    gap: 20px;
+}
+.vl{
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+.socials{
+    position: absolute;
+    left: 15px;
+    bottom: 25%;
+    transform: translate(0, 50%);
+}
+.footer{
+    width: 100%;
+    padding: 15px;
+}
+.find-doc{
+    /* position: absolute; */
+    border-radius: 40px;
+    width: 70%;
+    /* left: 50%; */
+    transform: translate(0%, -50%);
+}
+.foot{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 30%);
+}
+.footer h4{
+    color: #ef4d38;
+}
+.footer a{
+    color: #57b9a2;
+}
+.one{
+    width: 90%;
+    border: 1px solid gray;
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+}
+.one:hover{
+    padding: 8px 15px;
+}
+.doc-search{
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #ef4d38;
+}
+.doc-search::placeholder{
+    color: white;
+}
+.icon-search {
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.search-box{
+    width: 25%;
+}
